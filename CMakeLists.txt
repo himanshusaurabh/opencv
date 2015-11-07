@@ -1,5 +1,5 @@
 # ----------------------------------------------------------------------------
-#  Root CMake file for OpenCV
+#  Root  CMake file for OpenCV
 #
 #    From the off-tree build directory, invoke:
 #      $ cmake <PATH_TO_OPENCV_ROOT>
@@ -238,7 +238,7 @@ OCV_OPTION(BUILD_PNG                "Build libpng from source"           WIN32 O
 OCV_OPTION(BUILD_OPENEXR            "Build openexr from source"          (WIN32 OR ANDROID OR APPLE) AND NOT WINRT)
 OCV_OPTION(BUILD_TBB                "Download and build TBB from source" ANDROID )
 
-# OpenCV installation options
+#  OpenCV installation options
 # ===================================================
 OCV_OPTION(INSTALL_CREATE_DISTRIB   "Change install rules to build the distribution package" OFF )
 OCV_OPTION(INSTALL_C_EXAMPLES       "Install C examples"        OFF )
